@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Web Game Template</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      color: rgba(0, 0, 0, 0.54);
+    }
+
+    section {
+      height: 100vh;
+    }
+
+    .game,
+    .sidebar,
+    .leaderboard {
+      margin: 0.5rem;
+    }
+
+    .column {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .row {
+      display: flex;
+      flex: 1;
+    }
+
+    .sidebar {
+      width: 300px;
+      margin-left: 0;
+    }
+
+    .sidebar-ad {
+      width: 300px;
+      height: 250px;
+    }
+
+    .sidebar-ad:not(:first-child) {
+      margin-top: 1rem;
+    }
+
+    .leaderboard-ad {
+      width: 728px;
+      height: 90px;
+    }
+
+    .game {
+      flex: 1;
+      background-color: lightgreen;
+    }
+
+    .label {
+      padding: 0;
+      margin: 0;
+      text-transform: uppercase;
+      font-size: 0.75rem;
+    }
+
+    .leaderboard {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 0;
+      margin-right: 316px;
+    }
+
+    @media (max-width: 1052px) {
+      .leaderboard {
+        align-items: initial;
+        margin-right: initial;
+      }
+    }
+  </style>
+  <script async src="//www.googletagservices.com/tag/js/gpt.js"></script>
+  <script async src="prebid.js"></script>
+  <script defer src="adconomy-min.js"></script>
+</head>
+
+<body>
+  <section class="column">
+    <div class="row">
+      <div class="game">
+        <iframe id="game-iframe" src="https://securegames.iwin.com/m/gamehouse/delicous10/v_2/index.html?developerid=gamehouse&amp;gameid=puzzle%2Fdelicous10&amp;iframe=iframe&amp;menu=top&amp;ref=https%3A%2F%2Fwww.iwin.com%2Fonline-games" style="border: 0px; width: 100%; height: 100%;">
+          Your browser doesn't support iFrames.
+        </iframe>
+      </div>
+      <div class="sidebar">
+        <div id="sidebar-1" class="sidebar-ad"></div>
+        <p class="label">advertisement</p>
+        <div id="sidebar-2" class="sidebar-ad"></div>
+        <p class="label">advertisement</p>
+      </div>
+    </div>
+    <div class="leaderboard">
+      <div>
+        <div id="leaderboard-1" class="leaderboard-ad"></div>
+        <p class="label">advertisement</p>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>
