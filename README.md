@@ -13,4 +13,4 @@ If the wrapping page defines a globally scoped `onAdconomyRender` function, it w
 
 This can be useful for sending beacons or analytics needed for third party revenue tracking.
 
-An example of this callback is present in the [`example.html`]('example.html#L83-L88') page.
+An example of this callback is present in the [`example.html`](example.html#L83-L88) page.
