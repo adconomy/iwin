@@ -49,3 +49,7 @@ google.com, pub-8834194653550774, RESELLER, f08c47fec0942fa0
 google.com, pub-7620071422727774, RESELLER, f08c47fec0942fa0
 google.com, pub-5278973888786334, RESELLER, f08c47fec0942fa0
 google.com, pub-2393320645055022, RESELLER, f08c47fec0942fa0
+
+#PREBID - RUBICON
+rubiconproject.com, 21012, DIRECT, 0bfd66d529a55807
+rubiconproject.com, 21012, RESELLER, 0bfd66d529a55807
