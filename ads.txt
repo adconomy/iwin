@@ -53,3 +53,8 @@ google.com, pub-2393320645055022, RESELLER, f08c47fec0942fa0
 #PREBID - RUBICON
 rubiconproject.com, 21012, DIRECT, 0bfd66d529a55807
 rubiconproject.com, 21012, RESELLER, 0bfd66d529a55807
+
+#PREBID - VERIZON/OATH/AOL
+adtech.com, 11682, DIRECT, e1a5b5b6e3255540
+pubmatic.com, 156078, RESELLER, 5d62403b186f2ace
+indexexchange.com, 175407, RESELLER, 50b1c356f2c5c8fc
