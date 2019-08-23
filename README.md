@@ -5,7 +5,9 @@ Public repo for dynamic output.
   - `adconomy-min.js.map` - Source map for the above file to help with debugging.
   - `ads.txt` - For use by ad networks, to be served via the root domain.
   - `example.html` - Full example page with responsive styles, prebid, ad refreshing.
+  - `ima.js` - Stripped down Google IMA SDK implementation for video example page.
   - `prebid.js` - Custom built `prebid.js` lib with only the adapters required for current ad networks.
+  - `video.html` - Example page for using adconomy to fetch video.
 
 ## Callback
 
