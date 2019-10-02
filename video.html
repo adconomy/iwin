@@ -5,6 +5,14 @@
   <meta charset="utf-8">
   <title>Video Template</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>
+    function noVastAvailable() {
+      console.log(
+        '%cAdconomy: No VAST feed returned from prebid, continue waterfall.',
+        'background: #FFE5E5; color: #FF0000'
+      );
+    }
+  </script>
   <script src="//imasdk.googleapis.com/js/sdkloader/ima3.js"></script>
   <script async src="//www.googletagservices.com/tag/js/gpt.js"></script>
   <script async src="//acdn.adnxs.com/prebid/not-for-prod/1/prebid.js"></script>
